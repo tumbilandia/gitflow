@@ -181,6 +181,29 @@ https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true
 <!-- ![Alt text](feature-branch-published.png?raw=true "feature-723-reporting-module") -->
 <img src="feature-branch-published.png" width="60%"/>
 
+
+    -> git flow feature finish feature-723-reporting-module
+~~~
+    ❯ git flow feature finish feature-723-reporting-module
+    Switched to branch 'develop'
+    Your branch is up to date with 'origin/develop'.
+    Merge made by the 'ort' strategy.
+    README.md                    |  45 +++++++++++++++++++++++++++++++++++++++----
+    feature-branch-published.png | Bin 0 -> 67203 bytes
+    feature2.html                |  12 ++++++++++++
+    3 files changed, 53 insertions(+), 4 deletions(-)
+    create mode 100644 feature-branch-published.png
+    create mode 100644 feature2.html
+    To https://github.com/tumbilandia/gitflow.git
+    - [deleted]         feature/feature-723-reporting-module
+    Deleted branch feature/feature-723-reporting-module (was 22c38eb).
+
+    Summary of actions:
+    - The feature branch 'feature/feature-723-reporting-module' was merged into 'develop'
+    - Feature branch 'feature/feature-723-reporting-module' has been locally deleted; it has been remotely deleted from 'origin'
+    - You are now on branch 'develop'
+~~~
+
 8.  Reference:
    <!--* GitLab official markdown reference [GitLab Flavored Markdown ](https://www.google.com)
    * GitLab official markdown reference (https://docs.gitlab.com/ee/user/markdown.html)    -->
