@@ -54,8 +54,7 @@ https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true
     Branch 'develop' set up to track remote branch 'develop' from 'origin'.
 ```
 
-5 $ git flow feature start feature_
-
+5. $ git flow feature start feature_
   * [Git branch naming conventions](https://deepsource.io/blog/git-branch-naming-conventions/)
 <!--
   * Git branch naming conventions [https://deepsource.io/blog/git-branch-naming-conventions/](https://deepsource.io/blog/git-branch-naming-conventions/)
@@ -69,4 +68,9 @@ https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true
 ![](branch-naming-example.png=100x20)
 <img src="branch-naming-example.png?raw=true" width="400">
 -->
-[<img src="branch-naming-example.png" width="60%"/>]
+[<img src="branch-naming-example.png" width="40%"/>]
+
+6. Reference:
+   <!--* GitLab official markdown reference [GitLab Flavored Markdown ](https://www.google.com)
+   * GitLab official markdown reference (https://docs.gitlab.com/ee/user/markdown.html)    -->
+   * [GitLab official markdown reference](https://docs.gitlab.com/ee/user/markdown.html)
