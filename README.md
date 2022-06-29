@@ -146,8 +146,40 @@ https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true
 ~~~
 7. $ git flow feature publish
 ~~~
+    ❯ git branch -a
+    develop
+    * feature/feature-723-reporting-module
+    main
+    remotes/origin/HEAD -> origin/main
+    remotes/origin/develop
+    remotes/origin/main
 
+    ❯ git flow feature publish feature-723-reporting-module
+    Enumerating objects: 9, done.
+    Counting objects: 100% (9/9), done.
+    Delta compression using up to 12 threads
+    Compressing objects: 100% (7/7), done.
+    Writing objects: 100% (7/7), 1.13 KiB | 1.13 MiB/s, done.
+    Total 7 (delta 3), reused 0 (delta 0), pack-reused 0
+    remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+    remote:
+    remote: Create a pull request for 'feature/feature-723-reporting-module' on GitHub by visiting:
+    remote:      https://github.com/tumbilandia/gitflow/pull/new/feature/feature-723-reporting-module
+    remote:
+    To https://github.com/tumbilandia/gitflow.git
+    * [new branch]      feature/feature-723-reporting-module -> feature/feature-723-reporting-module
+    Branch 'feature/feature-723-reporting-module' set up to track remote branch 'feature/feature-723-reporting-module' from 'origin'.
+    Already on 'feature/feature-723-reporting-module'
+    Your branch is up to date with 'origin/feature/feature-723-reporting-module'.
+
+    Summary of actions:
+    - The remote branch 'feature/feature-723-reporting-module' was created or updated
+    - The local branch 'feature/feature-723-reporting-module' was configured to track the remote branch
+    - You are now on branch 'feature/feature-723-reporting-module'
 ~~~
+
+<!-- ![Alt text](feature-branch-published.png?raw=true "feature-723-reporting-module") -->
+<img src="feature-branch-published.png" width="60%"/>
 
 8.  Reference:
    <!--* GitLab official markdown reference [GitLab Flavored Markdown ](https://www.google.com)
