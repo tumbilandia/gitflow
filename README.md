@@ -54,7 +54,7 @@ https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true
     Branch 'develop' set up to track remote branch 'develop' from 'origin'.
 ```
 
-5. $ git flow feature start feature_
+5. $ git flow feature start feature/
   * [Git branch naming conventions](https://deepsource.io/blog/git-branch-naming-conventions/)
 <!--
   * Git branch naming conventions [https://deepsource.io/blog/git-branch-naming-conventions/](https://deepsource.io/blog/git-branch-naming-conventions/)
@@ -68,9 +68,86 @@ https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true
 ![](branch-naming-example.png=100x20)
 <img src="branch-naming-example.png?raw=true" width="400">
 -->
-[<img src="branch-naming-example.png" width="40%"/>]
 
-6. Reference:
+  <img src="branch-naming-example.png" width="40%"/>
+
+
+
+    -> git flow feature start feature-722-summary-module
+```
+    ❯ git flow feature start feature-722-summary-module
+    Switched to a new branch 'feature/feature-722-summary-module'
+    M       README.md
+
+    Summary of actions:
+    - A new branch 'feature/feature-722-summary-module' was created, based on 'develop'
+    - You are now on branch 'feature/feature-722-summary-module'
+
+    Now, start committing on your feature. When done, use:
+
+        git flow feature finish feature-722-summary-module
+```
+
+    -> create new file (powershell)
+```
+    ❯ new-item feature.html -type file
+        Directory: D:\_dev\_repos\gitflow-on-github\gitflow
+
+    ❯ git commit -a -m"add feature file example"
+    [feature/feature-722-summary-module d609f1e] add feature file example
+    2 files changed, 7 insertions(+), 3 deletions(-)
+    create mode 100644 feature.html
+```
+
+
+6. $ git flow feature finish feature_
+
+~~~
+    ❯ git commit -a -m"add feature file example"
+    [feature/feature-722-summary-module d609f1e] add feature file example
+    2 files changed, 7 insertions(+), 3 deletions(-)
+    create mode 100644 feature.html
+    ⚡ rra12@MANGO  D:\_dev\_repos\gitflow-on-github\gitflow   feature/feature-722-summary-module ≢                                                                        [06:37]
+
+    ❯ git flow feature finish feature-722-summary-module
+    Switched to branch 'develop'
+    Your branch is up to date with 'origin/develop'.
+    Updating 85b75b7..d609f1e
+    Fast-forward
+    README.md    | 10 +++++++---
+    feature.html |  0
+    2 files changed, 7 insertions(+), 3 deletions(-)
+    create mode 100644 feature.html
+    Deleted branch feature/feature-722-summary-module (was d609f1e).
+
+    Summary of actions:
+    - The feature branch 'feature/feature-722-summary-module' was merged into 'develop'
+    - Feature branch 'feature/feature-722-summary-module' has been locally deleted
+    - You are now on branch 'develop'
+
+
+    ❯  git branch -a
+    * develop
+    main
+    remotes/origin/HEAD -> origin/main
+    remotes/origin/develop
+    remotes/origin/main
+
+    ❯ git push origin
+    Enumerating objects: 6, done.
+    Counting objects: 100% (6/6), done.
+    Delta compression using up to 12 threads
+    Compressing objects: 100% (3/3), done.
+    Writing objects: 100% (4/4), 604 bytes | 604.00 KiB/s, done.
+    Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+    remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+    To https://github.com/tumbilandia/gitflow.git
+    85b75b7..d609f1e  develop -> develop
+~~~
+1.
+
+1.  Reference:
    <!--* GitLab official markdown reference [GitLab Flavored Markdown ](https://www.google.com)
    * GitLab official markdown reference (https://docs.gitlab.com/ee/user/markdown.html)    -->
    * [GitLab official markdown reference](https://docs.gitlab.com/ee/user/markdown.html)
+   * [List of supported languages and lexers for syntax highlighting](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers)
