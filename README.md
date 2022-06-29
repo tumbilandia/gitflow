@@ -69,7 +69,7 @@ https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true
 <img src="branch-naming-example.png?raw=true" width="400">
 -->
 
-  <img src="branch-naming-example.png" width="40%"/>
+  <img src="branch-naming-example.png" width="60%"/>
 
 
 
@@ -151,3 +151,5 @@ https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true
    * GitLab official markdown reference (https://docs.gitlab.com/ee/user/markdown.html)    -->
    * [GitLab official markdown reference](https://docs.gitlab.com/ee/user/markdown.html)
    * [List of supported languages and lexers for syntax highlighting](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers)
+   * [GitFlow in standard way](http://bitacoratl.blogspot.com/2016/11/instalacion-y-uso-de-git-flow.html)
+   * [Introducing GitFlow](https://datasift.github.io/gitflow/IntroducingGitFlow.html)
