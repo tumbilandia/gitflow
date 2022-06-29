@@ -144,9 +144,12 @@ https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true
     To https://github.com/tumbilandia/gitflow.git
     85b75b7..d609f1e  develop -> develop
 ~~~
-1.
+7. $ git flow feature publish
+~~~
 
-1.  Reference:
+~~~
+
+8.  Reference:
    <!--* GitLab official markdown reference [GitLab Flavored Markdown ](https://www.google.com)
    * GitLab official markdown reference (https://docs.gitlab.com/ee/user/markdown.html)    -->
    * [GitLab official markdown reference](https://docs.gitlab.com/ee/user/markdown.html)
